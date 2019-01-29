@@ -16,12 +16,12 @@ Configuration sample:
 
  ```
 "platforms": [
-		{
-			"platform": "HxThermostat",
-			"email": "the email used to login to the Hx thermostat app",
-			"password": "the password used to login to the Hx thermostat app",
-		}
-	],
+    {
+        "platform": "HxThermostat",
+        "email": "the email used to login to the Hx thermostat app",
+        "password": "the password used to login to the Hx thermostat app"
+    }
+]
 ```
 
 Fields:
