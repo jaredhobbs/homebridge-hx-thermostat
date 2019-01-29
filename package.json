@@ -1,0 +1,30 @@
+{
+  "name": "homebridge-hx-thermostat",
+  "description": "HX thermostat plugin for homebridge",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaredhobbs/homebridge-hx-thermostat.git"
+  },
+  "scripts": {
+    "lint": "eslint lib *.js",
+    "prepublishOnly": "npm run lint",
+    "preversion": "npm run lint"
+  },
+  "license": "ISC",
+  "preferGlobal": true,
+  "keywords": [
+    "homebridge-plugin",
+    "hx",
+    "thermostat"
+  ],
+  "engines": {
+    "node": ">=7.0.0",
+    "homebridge": ">=0.2.5"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^4.18.2",
+    "request-promise": "^1.0.2"
+  }
+}
