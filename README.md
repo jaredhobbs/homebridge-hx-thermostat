@@ -1,5 +1,5 @@
 # homebridge-hx-thermostat
-Hx thermostat plugin for [HomeBridge](https://github.com/nfarina/homebridge)
+Hx thermostat plugin for [HomeBridge](https://github.com/nfarina/homebridge).
 Tested with the Hx3 thermostat.
 
 # Installation
